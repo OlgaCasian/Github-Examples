@@ -1,0 +1,13 @@
+name: schedule - every 2 minutes
+on:
+  schedule:
+    - cron: '*/2 * * * *'
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: greet twice
+        run: echo "hello hello"
+
+
