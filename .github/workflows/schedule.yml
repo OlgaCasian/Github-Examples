@@ -8,5 +8,3 @@ jobs:
     steps:
       - name: greet twice
         run: echo "hello hello"
-
-
