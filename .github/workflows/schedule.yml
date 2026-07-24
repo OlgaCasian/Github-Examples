@@ -1,4 +1,4 @@
-name: schedule - every 2 minutes
+name: "schedule - every 2 minutes"
 on:
   schedule:
     - cron: '*/2 * * * *'
